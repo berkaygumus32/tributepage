@@ -1,0 +1,97 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+a {
+    color: #2F3A8F;
+}
+
+a:visited {
+    color: #FE7E6D;
+}
+
+#main {
+    margin: 30px 10px;
+    padding: 18px;
+    border-radius: 5px;
+    background: #ccc;
+}
+
+img {
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+#img-caption {
+    margin: 15px 0 10px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        margin: 15px 0 10px 0;
+    }
+}
+
+#headline{
+    line-height: 1.6;
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    
+}
+cite {
+    font-weight: 600;
+}
+
+#title-p {
+    font-style: italic;
+    font-weight: 600;
+}
